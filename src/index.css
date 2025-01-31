@@ -1,0 +1,99 @@
+*{
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+} 
+
+.Head-wrap{
+  width: 90%;
+  height: 100vh;
+  margin-left: 5%;
+  margin-top: 5vh;
+  
+}
+.Head{
+  width: 750px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.Heading{
+  width: 130px;
+  height: 80px;
+  text-align: left;
+}
+.Heading h4{
+  margin-top: 12px;
+}
+.Headline{
+  width: 350px;
+  height: 80px;
+  text-align: left;
+  color: #596780;
+}
+.chart-head{
+  display: flex;
+  justify-content: space-between;
+}
+.chart{
+  width: 300px;
+  height: 350px;
+  background-color: #7D268D0F;
+  margin-top: 10px;
+  border-radius: 20px;  
+}
+.chart-img{
+  width: 250px;
+  height: 300px;
+  margin-top: 30px;
+}
+.expense-img{
+  width: 300px;
+  height: 350px;
+}
+.Data-tracker{
+  display: flex;
+  font-size: 13px;
+  font-weight: 200;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.Data-tracker p{
+  color: #596780;
+  font-size: 10px;
+}
+.Real-time{
+  text-align: left;
+}
+.fun{
+  margin-bottom: 10px;
+}
+.Data{
+  text-align: left;
+}
+.Data h3{
+  margin-bottom:20px;
+}
+.Line{
+  margin-right: 30px;
+}
+.Line-one{
+  width: 200px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #A0B5FF;
+  margin-bottom: 20px;
+}
+.Line-two{
+  width: 250px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #EFF3FD;
+  margin-bottom: 5px;
+}
+.Line-three{
+  width: 150px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #EFF3FD;
+}
