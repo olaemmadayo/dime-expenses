@@ -1,0 +1,61 @@
+.expenses--header{
+  color: #7D286D;
+}
+
+.input-wrap{
+  margin-top: 20px;
+  background: #dde6ed;
+  padding: 8px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid green;
+  width: 700px;
+}
+
+.input-wrap input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  background: transparent;
+  outline: none;
+  display: block;
+  
+}
+
+.expense-button{
+  display: inline;
+  background-color: green;
+  color: white;
+  border-radius: 20px;height: 35px;
+  width: 100px;
+}
+
+.all--expensesHead{
+  color: #7D286D;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td {
+  background-color: #fff;
+}

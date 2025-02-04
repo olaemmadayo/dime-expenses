@@ -1,0 +1,32 @@
+.balance-layout{
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  padding: 5px 20px;
+  justify-content: center;
+}
+
+.edit-balance{
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #7D286D;
+  margin-top: 50px;
+}
+
+.edit-balance p{
+  color: white;
+  font-size: 20px;
+}
+
+.icon{
+  color: white;
+  width: 50px;
+  height: 30px;
+}

@@ -1,0 +1,68 @@
+.profile{
+  flex:1;
+
+}
+.profile--header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.edit{
+  background: #dde6ed;
+  padding: 12px;
+  border-radius: 10px;
+  color: #7D286D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit .icon{
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+.user--profile{
+  height: 85%;
+  margin-top: 2rem;
+  background: #dde6ed;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+.user--detail{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile--image{
+  width: 200px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 150px;
+}
+.user--detail .username{
+  color: #7D286D;
+}
+.user--detail .status{
+  color: green;
+}
+.show--profile{
+  color: white;
+  background-color: #7D286D;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+}
+.show--profile:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
