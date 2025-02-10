@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is the official Repository for Group 4 of SAIL Innovation Lab Frontend Cohort 2
 
 This repository holds the contributions of all group members in code and documentation 
@@ -18,3 +19,13 @@ The contributor names and email address are recorded below:
 12. Orevaoghene Eguwe, oreva.raphael@gmail.com
 13. Gbenga Aderinola, aderinolagbenga2@gmail.com
 ...
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>>>>>>> origin/emma-dashboard

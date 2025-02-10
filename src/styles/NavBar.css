@@ -1,0 +1,21 @@
+
+
+.navbar--nav{
+  border: 1px solid black;
+  width: 100%;
+}
+.navbar--headers{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 
+for RightNAvBAr Styling */
+
+.right--navbar{
+  border: solid black;
+  width: 100%;
+}
+.navbar--wrap{
+
+}

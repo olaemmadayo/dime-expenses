@@ -1,0 +1,15 @@
+.catbreakdown--head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catbreakdown--head h1{
+  color: #7D286D;
+}
+
+.table{
+  width: 400px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
