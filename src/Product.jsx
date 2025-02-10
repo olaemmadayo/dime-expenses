@@ -10,7 +10,7 @@ function Product () {
             <div className='Head-wrap'>
                 <div className='Head'>
                     <div className='Heading'>
-                        <p style={{color:'#757575'}}>WHY USE DIME ?</p>
+                        <p style={{color:'#757575'}}>WHY USE DIME ?</p>                     
                         <h4>Easy, Simple,
                             Affordable</h4>
                     </div>
@@ -22,7 +22,7 @@ function Product () {
 
                 <div className='chart-head'>
                   <div className='chart'>
-                    <img className='chart-img' src={moneychatImg} alt='ChartImage'/> 
+                    <img className='chart-img' src={moneychatImg} alt='ChartImage'/>  
                   </div> 
                   <div className='chart'>
                     <img className='expense-img' src={expensechatImg} alt='ExpenseImage'/>
