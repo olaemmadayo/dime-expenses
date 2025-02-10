@@ -10,9 +10,10 @@ function Product () {
             <div className='Head-wrap'>
                 <div className='Head'>
                     <div className='Heading'>
-                        <p style={{color:'#757575'}}>WHY USE DIME ?</p>                     
+                        <p style={{color:'#596780'}}> WHY USE DIME ? </p>                    
                         <h4>Easy, Simple,
-                            Affordable</h4>
+                            Affordable
+                        </h4>
                     </div>
                     <div className='Headline'>
                         <p>Our platform helps you in managing your personal or business expenses. These are some of the reasons why you should use our platform in managing business finances.</p>

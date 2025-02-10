@@ -9,18 +9,20 @@
   height: 100vh;
   margin-left: 5%;
   margin-top: 5vh;
-  
 }
 .Head{
   width: 750px;
   height: 100px;
   display: flex;
-  justify-content: space-between;
 }
 .Heading{
   width: 130px;
   height: 80px;
   text-align: left;
+}
+.Heading p{
+  width: 150px;
+  height: 20px;
 }
 .Heading h4{
   margin-top: 12px;
@@ -28,12 +30,14 @@
 .Headline{
   width: 350px;
   height: 80px;
+  margin-left: 320px;
   text-align: left;
   color: #596780;
 }
 .chart-head{
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .chart{
   width: 300px;
