@@ -1,17 +1,21 @@
 .Dashboard{
   display: flex;
-  gap: 20px;
+  gap: 10px;
+ 
+  
+  
   
 }
 
 .dashboard--content{
   background-color: #F3F5F7;
   flex: 1;
-  /* border-radius: 20px; */
-  padding: 2rem;
-  display: flex;
+  padding: 1rem;
   gap:1.5rem;
   justify-content: space-between;
+  
+  
+
 }
 
 

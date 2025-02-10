@@ -1,34 +1,60 @@
 .profile{
-  flex:1;
+  flex: 1; 
+  padding: 10px;
 
 }
 .profile--header{
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 250px;
+  height: 35px;
+  padding: 10px;
   
 }
+.profile--header .h4{
+  width: 60px;
+}
+.profilPicture--header{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+
+}
+.profilPicture--header:hover {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
 .edit{
-  background: #dde6ed;
+   background: #dde6ed; 
   padding: 12px;
   border-radius: 10px;
   color: #7D286D;
   display: flex;
   align-items: center;
   justify-content: center;
+
+ 
 }
 .edit .icon{
-  font-size: 20px;
+  font-size: 10px;
   transition: 0.5s ease-in-out;
-}
+  color: #7D286D;
+  width: 30px;
+  height: 20px;
+
+} 
 .user--profile{
-  height: 85%;
-  margin-top: 2rem;
+  height: 91%;
+  margin-top: 0.6rem;
   background: #dde6ed;
   border-radius: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
+  
   
  
 }
@@ -41,9 +67,9 @@
   justify-content: center;
 }
 
-.profile--image{
-  width: 200px;
-  height: 250px;
+.Bigprofile--image{
+  width: 250px;
+  height: 230px;
   background-color: #fff;
   border-radius: 50%;
   width: 150px;
@@ -61,8 +87,47 @@
   width: 80px;
   border-radius: 5px;
   border: none;
+  margin-top: -50px;
 }
 .show--profile:hover {
-  transform: scale(1.3);
+  
   cursor: pointer;
 }
+
+.account--wrap{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  transition:0.3s ease-in-out;
+  color: #596780;
+  padding: 6px;
+}
+.account--wrap .account:hover{
+  background-color: #7D286D;
+  
+}
+.account{
+  display: flex;
+  border-radius: 5px;
+  gap: 10px;
+  height: 30px;
+  align-items: center;
+}
+.arrow-right{
+  margin-left: 100px;
+  color: #7D286D;
+}
+.account p{
+color: #596780;
+font-weight: bold;
+font-size: 1.1rem;
+}
+.account :hover{
+  cursor: pointer;
+}
+.sign{
+  color: #596780;
+}
+

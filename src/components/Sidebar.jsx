@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaHome, FaBook, FaCalendar, FaBox, FaBoxOpen, FaXbox, FaPrescriptionBottleAlt } from 'react-icons/fa'
+import { FaHome, FaCalendar, FaBox, FaBoxOpen, FaTools, FaChartLine, FaMoneyBill } from 'react-icons/fa'
+
 import { Link } from 'react-router-dom'
 import DimeLogo from '../assets/images/Dime_logo2.png'
 import '../styles/Sidebar.css'
@@ -12,7 +13,7 @@ function Sidebar() {
       </div>
       <div>
         <div className="menu--list">
-          <Link to="/" className="item">
+          <Link to="/" className="item ">
             <FaHome className='icon' />
             Dashboard
           </Link>
@@ -21,11 +22,11 @@ function Sidebar() {
             Income
           </Link>
           <Link to="/Expenses" className="item">
-            <FaBook className='icon' />
+            <FaMoneyBill className='icon' />
             Expenses
           </Link> 
           <Link to="/analytics" className="item">
-            < FaBoxOpen className='icon' />
+            < FaChartLine className='icon' />
             Analytics
           </Link>
           <Link to="/balance" className="item">
@@ -37,13 +38,10 @@ function Sidebar() {
             Report
           </Link>
           <Link to="/settings" className="item">
-          <FaXbox className='icon' />
+          <FaTools className='icon' />
             Settings
           </Link>
-          <Link to="/help" className="item">
-          <FaPrescriptionBottleAlt className='icon'/>
-            Help
-          </Link>
+          
         </div>
       </div>
     </div>

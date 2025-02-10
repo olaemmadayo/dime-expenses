@@ -1,4 +1,12 @@
-
+.income--header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.income--header h1{
+  color: #7D286D;
+}
 .income--wrap{
   width: 600px;
   height: 300px;

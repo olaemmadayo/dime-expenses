@@ -1,11 +1,24 @@
-import React from 'react';
+
+import React, { useEffect } from 'react';
 import '../styles/income.css';
-import { Loader } from "../Loader/Loader/";
+import { Loader } from "./Widget/Loader/Loader";
 import { FaEdit } from 'react-icons/fa';
+import ProfileHeader from './ProfileHeader';
 
 function Income({ income, setIncome, loading }) {
+  // Add useEffect for validation
+  useEffect(() => {
+    if (income < 0) {
+      setIncome(0);
+    }
+  }, [income, setIncome]);
+
   return (
-    <div>
+    <div className='income page'>
+      <div className="income--header">
+      <h1>Income</h1>
+      <ProfileHeader/>
+      </div>
       <div className="income--wrap">
         {loading ? (
           <Loader loading={loading} />

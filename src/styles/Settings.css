@@ -1,34 +1,14 @@
-.menu{
-  display: flex;
-  flex-direction: column ;
-  height: 100vh;
-  background-color: white;
-}
-
-.logo{
-  text-align: center;
-  padding: 20px;
+.setting-head{
   color: #7D286D;
-  align-items: center;
-  display: flex;
-  gap: 15px
-
+  margin-bottom: 40px;
 }
 
-.menu--list .icon{
-  font-size: 1.1rem;
-  color: #596780;
-
-}
-
-.menu--list{
+.settings-wrap{
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
-
-.menu--list .item{
+.settings-wrap .item{
   display:flex;
   align-items: center;
   gap: 20px;
@@ -39,10 +19,14 @@
   border-radius: 10px;
   transition:0.3s ease-in-out;
   color: #596780;
-
 }
 
-.menu--list .item:hover, .active{
+.settings-wrap .icon{
+  font-size: 1.1rem;
+  color: #596780;
+  
+}
+.settings-wrap .item:hover{
   background-color: #7D286D;
   color: #dde6ed !important;
 }

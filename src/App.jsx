@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Sidebar from './components/Sidebar';
 import Content from './components/Content';
-import Profile from './components/profile';
 import Income from './components/Income';
 import Expenses from './components/Expenses';
 import Balance from './components/Balance';
-import CategoryBreakdown from './components/CategoryBreakdown'
+import CategoryBreakdown from './components/CategoryBreakdown';
+import Settings from './components/Settings';
 import './App.css';
 
 
@@ -15,22 +15,32 @@ import './App.css';
 
 
 function App() {
-  const [income, setIncome] = useState();
+  const [income, setIncome] = useState(0);
   const [expenses, setExpenses] = useState([]);
   const [categories, setCategories] = useState([]);
  
 
+ 
 
-  // Load data from localStorage
-  useEffect(() => {
-    const storedIncome = localStorage.getItem("income");
-    const storedExpenses = JSON.parse(localStorage.getItem("expenses"));
-    const storedCategories = JSON.parse(localStorage.getItem("categories"));
 
-    if (storedIncome) setIncome(Number(storedIncome));
-    if (storedExpenses) setExpenses(storedExpenses);
-    if (storedCategories) setCategories(storedCategories);
+   // Load initial data from localStorage
+   useEffect(() => {
+    const loadInitialData = () => {
+      const storedIncome = Number(localStorage.getItem('income')) || 0;
+      const storedExpenses = JSON.parse(localStorage.getItem('expenses')) || [];
+      const storedCategories = JSON.parse(localStorage.getItem('categories')) || [];
+      
+      setIncome(storedIncome);
+      setExpenses(storedExpenses);
+      setCategories(storedCategories);
+    };
+
+    loadInitialData();
   }, []);
+  // Income persistence
+  useEffect(() => {
+    localStorage.setItem('income', income.toString());
+  }, [income]);
       
     // Save data to localStorage
   useEffect(() => {
@@ -49,8 +59,6 @@ function App() {
           <Route path="/" element={
             <>
               <Content/>
-              <Profile/>
-
              
             </>
           } />
@@ -78,9 +86,7 @@ function Analytics() {
 
 
 
-function Settings() {
-  return <h1>Settings Page</h1>
-}
+
 
 function Help() {
   return <h1>Help Page</h1>

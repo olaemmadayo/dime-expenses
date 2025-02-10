@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/table.css';
+import ProfileHeader from './ProfileHeader';
+import '../styles/CategoryBreakdown.css'
 
 function CategoryBreakdown({ expenses }) {
   const calculateCategoryTotals = () => {
@@ -19,7 +21,11 @@ function CategoryBreakdown({ expenses }) {
 
   return (
     <div className="table-container">
-      <h1 style={{ color: '#7D286D', marginBottom: '30px' }}>Expenditure Report by Category</h1>
+      <div className="catbreakdown--head">
+        <h1 >Expenditure Report </h1>
+          <ProfileHeader/>
+      </div>
+
       <table className="table">
         <thead>
           <tr>
