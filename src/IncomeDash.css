@@ -1,0 +1,23 @@
+.dash{
+border: 1px solid black;
+border-left: none;
+display: flex;
+gap: 15%;
+margin-left: 50px;
+}
+.design{
+    border: 1px solid black;
+}
+.form-group{
+    font-size: 24px;
+    color: black;
+}
+.text{
+    font-size: 24px;
+    color: black;
+}
+button{
+    border-radius: 25px;
+    border-color: blueviolet;
+    color: blueviolet;
+}

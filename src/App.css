@@ -1,0 +1,70 @@
+ #root {
+  width: 100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+} 
+header{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;   
+  height: 100px;
+}
+nav{
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  gap: 45px;
+  
+}
+.tab{
+  font-size: 14px; 
+  width: 128px;
+  text-decoration: none;
+  text-align: center;   
+  color: #21212199;
+  font-weight: bold;
+}
+.ctan{
+display: flex;  
+justify-content: space-between;
+}
+.login{
+  color:#21212199;
+  font-size: 16px;
+  width: 125px;
+  border-radius: 10px;
+}
+.signup{
+  background-color:#7D286D;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  width: 125px;
+  border-radius: 30px;
+
+}
+section{
+  display: flex;  
+justify-content: space-between;
+}
+section .text{
+  margin: 0 50px;
+} 
+section h2{
+  font-size: 54px;
+  color: black;
+ text-align: center;
+}
+.text p{
+  font-size: 25px;
+  color:#21212199;
+  ;
+}
+.sign-up{
+  background-color: #7D286D;
+  color: white;
+  margin-left: 5px;
+}
+
