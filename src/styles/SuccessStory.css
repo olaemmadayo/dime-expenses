@@ -1,0 +1,40 @@
+.SuccessStory--page{
+  padding: 20px 70px;
+}
+.head--content h1{
+  margin-top: -5px;
+}
+.center--button {
+  margin-top: 50px;
+}
+.center--button .with--dime{
+  background-color: #7D286D;
+  border-radius: 20px;
+  height: 30px;
+  border-color: transparent;
+  width: 100px;
+  color: white;
+  font-size: 12px;
+}
+.center--button .with--dime:hover{
+  cursor: pointer;
+}
+.center--button .without--dime{
+  background-color: #eef3f8;
+  border-radius: 20px;
+  height: 30px;
+  border-color: transparent;
+  width: 120px;
+  font-size: 12px;
+}
+.success--content--wrap{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 150px;
+  align-items: center;
+}
+.inner--content{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
