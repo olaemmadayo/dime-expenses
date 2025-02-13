@@ -1,0 +1,159 @@
+.expense--page{
+  flex: 1;
+  padding: 10px;
+}
+
+.expenses--header{
+  color: #7D286D;
+}
+.expense--headerWrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense--body{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.input-wrap{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  /* background: #dde6ed; */
+  padding: 8px 10px;
+  border-radius: 10px;
+  gap: 20px;
+  width: 400px;
+  
+}
+.category--box{
+    background: #dde6ed;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  background: transparent;
+  outline: none;
+}
+.category--box icon{
+  color: #969393;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.value--box{
+  background: #dde6ed;
+  padding: 8px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.value--box icon{
+  color: #969393;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+
+}
+
+.date--box{
+  background: #dde6ed;
+  padding: 8px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.expense--left{
+ 
+  width: 500px;
+}
+
+.expense-button{
+  display: inline;
+  background-color: #7D286D;
+  color: white;
+  border-radius: 10px;
+  height: 34px;
+  width: 100px;
+}
+
+.all--expensesHead{
+  color: #7D286D;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  color: #7D286D;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td {
+  background-color: #f0f0f0;
+}
+
+.expense-total{
+  margin-top: 30px;
+  background-color: #f0f0f0;
+}
+tfoot {
+  background-color: #f0f0f0;
+}
+
+/* modified expeses */
+
+/* Expenses.css additions */
+.delete-button {
+  background: none;
+  border: none;
+  color: #ff4444;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.delete-button:hover {
+  color: #cc0000;
+}
+
+.clear-all-button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clear-all-button:hover {
+  background-color: #cc0000;
+}

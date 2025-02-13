@@ -1,0 +1,28 @@
+.dfooter-imageWrap{
+  background-color: hsla(280, 13%, 87%, 0.808);
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+ 
+}
+.top--content{
+  font-size: 40px;
+}
+.dfooter-imageWrap{
+  align-items: center;
+  border-radius: 15px;
+}
+.bottom--content{
+  font-style: italic;
+}
+.dime{
+ 
+  color: #7D286D;
+}
+.dfooter-image{
+  width: 250px;
+  height: 170px;
+  border-radius: 50%;
+}
+

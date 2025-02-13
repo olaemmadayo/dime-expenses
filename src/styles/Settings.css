@@ -1,0 +1,32 @@
+.setting-head{
+  color: #7D286D;
+  margin-bottom: 40px;
+}
+
+.settings-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.settings-wrap .item{
+  display:flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px;
+  border-radius: 10px;
+  transition:0.3s ease-in-out;
+  color: #596780;
+}
+
+.settings-wrap .icon{
+  font-size: 1.1rem;
+  color: #596780;
+  
+}
+.settings-wrap .item:hover{
+  background-color: #7D286D;
+  color: #dde6ed !important;
+}

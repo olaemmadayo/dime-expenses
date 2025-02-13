@@ -1,0 +1,59 @@
+.income--header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.income--header h1{
+  color: #7D286D;
+}
+.income--wrap{
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  padding: 5px 20px;
+  justify-content: center;
+}
+.income--head{
+  color: #7D286D;
+}
+.income--inputbox{
+  background: #dde6ed;
+  padding: 8px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.income--inputbox input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  background: transparent;
+  outline: none;
+}
+
+.edit-income{
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #7D286D;
+  margin-top: 50px;
+}
+
+.edit-income p{
+  color: white;
+  font-size: 20px;
+}
+
+.icon{
+  color: white;
+  width: 50px;
+  height: 30px;
+}

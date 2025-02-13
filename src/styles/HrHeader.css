@@ -1,0 +1,60 @@
+.HrHeader{
+  padding: 0px
+}
+.HrHeader--wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-top: -20px;
+}
+.service--wrap{
+  display: flex;
+  align-items: center;
+}
+.header--nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header--nav a{
+  text-decoration: none;
+  color: #040815;
+}
+.drop--down{
+  margin-left: -15px;
+  color: #596780;
+  background-color: white;
+}
+.header--button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 10px; */
+}
+.header--button .login{
+  background-color: white;
+  border-color: transparent;
+  width: 90px;
+  height: 35px;
+}
+.header--button .login:hover{
+  cursor: pointer;
+}
+
+.header--button .sign--up{
+  background-color: #7D286D;
+  border-color: transparent;
+  border-radius: 20px;
+  height: 35px;
+  color: white;
+  width: 90px;
+}
+.header--button .sign--up:hover{
+  cursor: pointer;
+}
+.line{
+  margin-top: -10px;
+}
