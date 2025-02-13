@@ -10,7 +10,7 @@
 .dashboard--content{
   background-color: #F3F5F7;
   flex: 1;
-  padding: 1rem;
+  /* padding: 1rem; */
   gap:1.5rem;
   justify-content: space-between;
   

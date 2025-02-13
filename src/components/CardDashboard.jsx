@@ -38,7 +38,7 @@ const Card = () => {
     <div className='card--container'>
       {expenses.map((item, index) => (
         <div
-          className='card'
+          className='cardd'
           key={index}
           onClick={item.title === 'Add More' ? handleAddMoreClick : undefined}
         >

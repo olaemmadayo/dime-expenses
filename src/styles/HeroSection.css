@@ -7,10 +7,20 @@
 .hero--content--wrap{
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
+  /* margin-top: 0%; */
+  /* border: 1px solid black; */
+  
+}
+.hero--content{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  /* align-items:center; */
+  justify-content: center;
 }
 .hero--content h1{
-  font-size: 75px;
+  font-size: 65px;
 }
 .hero--content--break{
   display: block;

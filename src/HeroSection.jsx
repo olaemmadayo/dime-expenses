@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles/HeroSection.css'
 import HrHeader from './HrHeader'
-
 import heroImage from './assets/hero-image.png'
 
 

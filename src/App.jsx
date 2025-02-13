@@ -7,6 +7,11 @@ import Expenses from './components/Expenses';
 import Balance from './components/Balance';
 import CategoryBreakdown from './components/CategoryBreakdown';
 import Settings from './components/Settings';
+import HeroSection from "./HeroSection"
+import HowItWorks from "./HowItWorks"
+import Testimonial from "./Testimonial"
+import SuccessStory from "./SuccessStory"
+import PricingForm from './PricingForm'
 import './App.css';
 
 
@@ -51,6 +56,14 @@ function App() {
   
 
   return (
+    <div className='all-app'>
+      <div style={{ marginTop: '1px' }}>
+        <HeroSection/>
+        <Testimonial/>
+        <HowItWorks/>
+        <PricingForm/>
+        <SuccessStory/>
+      </div>
     <Router>
     <div className='Dashboard'>
       <Sidebar />
@@ -73,6 +86,9 @@ function App() {
       </div>
     </div>
   </Router>
+  
+
+  </div>
 
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import ContentHeader from './ContentHeader'
 import '../styles/Content.css'
-import Card from './Card'
+import Card from './CardDashboard'
 import Profile from './Profile'
 import ProfileHeader from './ProfileHeader'
 import DashboardFooter from './DashboardFooter'
