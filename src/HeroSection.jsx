@@ -1,14 +1,26 @@
 import React from 'react'
 import './styles/HeroSection.css'
 import HrHeader from './HrHeader'
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import heroImage from './assets/hero-image.png'
+import HowItWorks from './HowItWorks'
+
+
+
 
 
 const HeroSection = () => {
   return (
     <div className='Herosection'>
-      <HrHeader/>
+         <Router>
+      <HrHeader />
+      <Routes>
+        <Route path="/how-it-works" element={<HowItWorks />} />
+        {/* <Route path="/pricing" element={<Pricing/>}/> */}
+        {/* <Route path="/benefit" element={<Testimonial/>}/>
+        <Route path="/help" element={<SuccessStory/>}/> */}
+      </Routes>
+    </Router>
 
       <div className="hero--content--wrap">
         <div className='hero--content'>

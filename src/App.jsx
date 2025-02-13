@@ -7,6 +7,7 @@ import Expenses from './components/Expenses';
 import Balance from './components/Balance';
 import CategoryBreakdown from './components/CategoryBreakdown';
 import Settings from './components/Settings';
+import HeroSection from './HeroSection';
 import './App.css';
 
 
@@ -51,6 +52,10 @@ function App() {
   
 
   return (
+    <div>
+      <div>
+        <HeroSection/>
+      </div>
     <Router>
     <div className='Dashboard'>
       <Sidebar />
@@ -73,6 +78,7 @@ function App() {
       </div>
     </div>
   </Router>
+  </div>
 
   )
 }

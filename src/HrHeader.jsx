@@ -2,6 +2,7 @@ import React from 'react'
 import './styles/HrHeader.css'
 import dimeLogo from './assets/Dime_logo 2.png'
 import { FaArrowDown } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 const HrHeader = () => {
   return (
     <div className="HrHeader">
@@ -13,10 +14,11 @@ const HrHeader = () => {
           
           <a href="">Services</a>
           <FaArrowDown className='drop--down'/>
-          <a href="">Pricing</a>
-          <a href="">Benefit</a>
-          <a href="">Help</a>
-          <a href="">How it works</a>
+          <Link to="pricing">Pricing</Link>
+          <Link to="benefit">Benefit</Link>
+          <Link to="help">Help</Link>
+          <Link to="how-it-works">How it Works</Link>
+          
          
         </div>
         <div className="header--button">
