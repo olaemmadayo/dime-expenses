@@ -1,0 +1,60 @@
+.Herosection{
+  padding: 10px 30px;
+  margin-bottom: 50px;
+}
+
+
+.hero--content--wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero--content h1{
+  font-size: 75px;
+}
+.hero--content--break{
+  display: block;
+  text-align: center;
+}
+.hero--content h4{
+  font-size: 25px;
+  color: #596780;
+  
+}
+
+.hero--content hr{
+  width: 617px; 
+  height: 7px;
+  background-color: #d1cfcf;
+  border-radius: 20px;
+  margin-left: 0%;
+  margin-top: -20px;
+}
+.hero--button{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+
+}
+.hero--button .free-account{
+  background-color: #7D286D;
+  border-color: transparent;
+  border-radius: 10px;
+  height: 40px;
+  color: white;
+  width: 160px;
+}
+.hero--button .see-pricing{
+  background-color: white;
+  border-color: transparent;
+  border-radius: 10px;
+  height: 40px;
+  color:#596780;
+  width: 110px;
+}
+.free-account:hover{ 
+  cursor: pointer;
+}
+.see-pricing:hover{ 
+  cursor: pointer;
+}

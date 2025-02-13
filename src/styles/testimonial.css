@@ -1,0 +1,77 @@
+.Testimonial--page{
+  flex: 1;
+  padding: 20px;
+  
+  align-items: center;
+}
+
+.header--wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header--wrap h4{
+  margin: 5px;
+  color: #040815;
+  font-size: 20px;
+  font-style: Plus Jakarta Sans;
+}
+.header--wrap h2{
+  margin: 5px;
+  color: #040815;
+  font-size: 40px;
+}
+.header--wrap p{
+  color: #90A3BF;
+  margin: 5px;
+ 
+}
+.content--break{
+  display: block;
+  text-align: center;
+}
+
+.card--wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  margin-top: 20px;
+
+}
+.bottom--nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70px;
+  height: 35px;
+  margin: auto;
+  margin-top: 20px;
+}
+.arrow-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #7D286D1A;
+  border-radius: 50%;
+
+}
+.arrow--left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #7D286D;
+  border-radius: 50%;
+  
+
+}
+.icon{
+  color: black;
+}
+.icon--left{
+  color: #e0dedee5;
+}
