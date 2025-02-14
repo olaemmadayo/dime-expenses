@@ -12,8 +12,10 @@ const SuccessStory = () => {
       </div>
       <div className="success--content--wrap">
         <div className='center--button'>
-          <button className='with--dime'>WithDime</button>
-          <button className='without--dime'>WithoutDime</button>
+          <div className="content--button">
+            <button className='with--dime'>WithDime</button>
+            <button className='without--dime'>WithoutDime</button>
+          </div>
           <h4>Track Business Expenses until its Milisecond</h4>
           <div className='inner--content'>
             <FaCheckCircle style={{ color: 'green' }} />

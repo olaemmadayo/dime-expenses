@@ -52,9 +52,13 @@ function App() {
   
 
   return (
-    <div>
-      <div>
+    <div className='all-app'>
+      <div style={{ marginTop: '1px' }}>
         <HeroSection/>
+        <Testimonial/>
+        <HowItWorks/>
+        <PricingForm/>
+        <SuccessStory/>
       </div>
     <Router>
     <div className='Dashboard'>
@@ -78,6 +82,8 @@ function App() {
       </div>
     </div>
   </Router>
+  
+
   </div>
 
   )
