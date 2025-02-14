@@ -7,6 +7,7 @@ import HowItWorks from '../HowItWorks'
 import SignUpForm from './SignUpForm';
 import LoginForm from './LoginForm';
 import PricingForm from '../components/PricingForm'
+import Testimonial from '../components/Testimonial'
 
 
 
@@ -18,6 +19,7 @@ const HeroSection = () => {
          <Router>
       <HrHeader />
       <Routes>
+      <Route path="/services" element={<Testimonial/>}/>
         <Route path="/how-it-works" element={<HowItWorks />} />
 
         <Route path="/pricing" element={<PricingForm/>}/>

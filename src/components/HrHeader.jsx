@@ -24,7 +24,7 @@ const HrHeader = () => {
           <img src={dimeLogo} alt="" />
         </div>
         <div className="header--nav">
-          <Link to="pricing">Services</Link>
+          <Link to="services">Services</Link>
           <FaArrowDown className='drop--down'/>
           <Link to="pricing">Pricing</Link>
           <Link to="benefit">Benefit</Link>
