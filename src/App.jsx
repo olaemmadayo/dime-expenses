@@ -7,8 +7,13 @@ import Expenses from './components/Expenses';
 import Balance from './components/Balance';
 import CategoryBreakdown from './components/CategoryBreakdown';
 import Settings from './components/Settings';
-import HeroSection from './HeroSection';
+import HeroSection from './components/HeroSection';
+import Testimonial from './components/Testimonial';
+import HowItWorks from './HowItWorks';
+import PricingForm from './components/PricingForm';
+import SuccessStory from './components/SuccessStory'
 import './App.css';
+
 
 
 

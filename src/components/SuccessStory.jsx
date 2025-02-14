@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles/SuccessStory.css'
-import successGraph from './assets/graph1.png'
+import '../styles/SuccessStory.css'
+import successGraph from '../assets/graph1.png'
 import { FaCheckCircle } from 'react-icons/fa'
 const SuccessStory = () => {
   return (

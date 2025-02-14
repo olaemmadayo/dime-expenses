@@ -1,4 +1,4 @@
-import "./styles/pricing.css";
+import "../styles/pricing.css";
 
 const PricingForm = () => {
   return (

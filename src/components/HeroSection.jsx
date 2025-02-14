@@ -1,13 +1,10 @@
 import React from 'react'
-import './styles/HeroSection.css'
+import '../styles/HeroSection.css'
 import HrHeader from './HrHeader'
-<<<<<<< HEAD
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-=======
->>>>>>> 6ca997cbd92bf853b5d6bb48db0041ed96dc5a05
-import heroImage from './assets/hero-image.png'
-import HowItWorks from './HowItWorks'
-
+import heroImage from '../assets/hero-image.png'
+import HowItWorks from '../HowItWorks'
+    
 
 
 

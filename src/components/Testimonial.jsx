@@ -1,9 +1,9 @@
 import React from 'react'
-import './styles/testimonial.css'
-import Card from './Card'
-import princess from './assets/princess.png'
-import jeff from './assets/jeff.png'
-import larry from './assets/larry.png'
+import '../styles/testimonial.css'
+import Card from '../Card'
+import princess from '../assets/princess.png'
+import jeff from '../assets/jeff.png'
+import larry from '../assets/larry.png'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 
