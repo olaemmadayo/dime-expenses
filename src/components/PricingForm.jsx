@@ -1,4 +1,14 @@
 import "../styles/pricing.css";
+import lovely from '../assets/images/lovely.png'; 
+import crownImg  from '../assets/images/crown.png';
+import shareImg  from '../assets/images/share.png';
+import arrowImg  from '../assets/images/Arrow_07.png';
+import ticketCircle  from '../assets/images/tick-circle.png';
+
+import closeCircle  from '../assets/images/close-circle.png';
+
+
+
 
 const PricingForm = () => {
   return (
@@ -17,7 +27,7 @@ const PricingForm = () => {
         </div>
         <div className="card-head">
           <span className="save-text">Save 45%</span>
-          <img src="Arrow_07.png" alt="" className="save-img" />
+          <img src={arrowImg} alt="" className="save-img" />
         </div>
       </div>
 
@@ -25,12 +35,12 @@ const PricingForm = () => {
         {/* Free Plan */}
         <div className="pricing-card">
           <div className="card-header">
-            <img src="lovely.png" alt="" />
+            <img src={lovely} alt="" />
             <h2>Free</h2>
           </div>
           <p>Perfect plan to get started</p>
           <h3>
-            <span className="price-bold">N3500</span>
+            <span className="price-bold">N0</span>
             <span className="price-fade">/month</span>
           </h3>
           <p>
@@ -39,7 +49,7 @@ const PricingForm = () => {
           <ul>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -47,7 +57,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -55,7 +65,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -63,7 +73,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="close-circle.png"
+                src={closeCircle }
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -71,7 +81,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="close-circle.png"
+                src={closeCircle }
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -79,7 +89,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="close-circle.png"
+                src={closeCircle }
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -93,14 +103,14 @@ const PricingForm = () => {
         {/* Pro Plan */}
         <div className="pricing-card popular">
           <div className="card-header">
-            <img src="crown.png" alt="" />
+            <img src={crownImg} alt="" />
             <h2>
               Pro <span className="tag">Popular</span>
             </h2>
           </div>
           <p>Perfect plan for professionals!</p>
           <h3>
-            <span className="price-bold">N3500</span>
+            <span className="price-bold">N1500</span>
             <span className="price-fade">/month</span>
           </h3>
           <p>
@@ -109,7 +119,7 @@ const PricingForm = () => {
           <ul>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -117,7 +127,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -125,7 +135,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -133,7 +143,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -141,7 +151,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -149,7 +159,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -162,7 +172,7 @@ const PricingForm = () => {
         {/* Ultimate Plan */}
         <div className="pricing-card">
           <div className="card-header">
-            <img src="share.png" alt="" />
+            <img src={shareImg} alt="" />
             <h2>Ultimate</h2>
           </div>
           <p>Best suits for great company!</p>
@@ -178,7 +188,7 @@ const PricingForm = () => {
           <ul>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -186,7 +196,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -194,7 +204,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -202,7 +212,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />
@@ -210,7 +220,7 @@ const PricingForm = () => {
             </li>
             <li>
               <img
-                src="tick-circle.png"
+                src={ticketCircle}
                 alt=""
                 style={{ width: "20px", marginRight: "8px" }}
               />

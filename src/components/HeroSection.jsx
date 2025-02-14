@@ -4,7 +4,10 @@ import HrHeader from './HrHeader'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import heroImage from '../assets/hero-image.png'
 import HowItWorks from '../HowItWorks'
-    
+import SignUpForm from './SignUpForm';
+import LoginForm from './LoginForm';
+import PricingForm from '../components/PricingForm'
+
 
 
 
@@ -16,9 +19,13 @@ const HeroSection = () => {
       <HrHeader />
       <Routes>
         <Route path="/how-it-works" element={<HowItWorks />} />
-        {/* <Route path="/pricing" element={<Pricing/>}/> */}
+
+        <Route path="/pricing" element={<PricingForm/>}/>
         {/* <Route path="/benefit" element={<Testimonial/>}/>
         <Route path="/help" element={<SuccessStory/>}/> */}
+
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/sign-up" element={<SignUpForm />} />
       </Routes>
     </Router>
 

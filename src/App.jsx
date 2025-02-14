@@ -9,9 +9,9 @@ import CategoryBreakdown from './components/CategoryBreakdown';
 import Settings from './components/Settings';
 import HeroSection from './components/HeroSection';
 import Testimonial from './components/Testimonial';
-import HowItWorks from './HowItWorks';
-import PricingForm from './components/PricingForm';
-import SuccessStory from './components/SuccessStory'
+import HowItWorks from './HowItWorks';;
+import SuccessStory from './components/SuccessStory';
+import Footer from './components/Footer'
 import './App.css';
 
 
@@ -60,9 +60,9 @@ function App() {
     <div className='all-app'>
       <div style={{ marginTop: '1px' }}>
         <HeroSection/>
+        <Footer/>
         <Testimonial/>
         <HowItWorks/>
-        <PricingForm/>
         <SuccessStory/>
       </div>
     <Router>

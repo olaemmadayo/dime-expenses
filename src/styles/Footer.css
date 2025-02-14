@@ -1,0 +1,38 @@
+/* footer styling */
+
+.footer-page{
+  height: 100vh;
+}
+.about-product{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1%;
+    padding: 0 50px;
+  }
+  .aboutinfo h2{
+    font-size: 18px;
+    text-align: center; 
+  }
+  .about-product p{
+    font-size: 18px;
+    color:#21212199;
+    
+
+  }
+  .aboutinfo ol{
+    font-size: 12px;
+    color:#21212199;
+    padding-right: 30px;
+    
+  }
+  footer{
+
+    display: flex;
+    gap: 20px;
+    border-top-style: solid;
+    width: 1120px;
+    border-color: #102136;
+    color:#21212199;
+    margin-left: 70px;
+  
+}
