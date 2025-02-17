@@ -8,8 +8,6 @@ import Balance from './components/Balance';
 import CategoryBreakdown from './components/CategoryBreakdown';
 import Settings from './components/Settings';
 import HeroSection from './components/HeroSection';
-import SuccessStory from './components/SuccessStory';
-import Footer from './components/Footer'
 import './App.css';
 
 
@@ -57,9 +55,8 @@ function App() {
   return (
     <div className='all-app'>
       <div style={{ marginTop: '1px' }}>
-        <HeroSection/>
-        {/* <Footer/> */}
-        {/* <SuccessStory/> */}
+        <HeroSection/> 
+        
       </div>
     <Router>
     <div className='Dashboard'>

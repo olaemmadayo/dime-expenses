@@ -8,6 +8,7 @@ import SignUpForm from './SignUpForm';
 import LoginForm from './LoginForm';
 import PricingForm from '../components/PricingForm'
 import Testimonial from '../components/Testimonial'
+import Sidebar from './Sidebar';
 
 
 
@@ -21,7 +22,7 @@ const HeroSection = () => {
       <Routes>
       <Route path="/services" element={<Testimonial/>}/>
         <Route path="/how-it-works" element={<HowItWorks />} />
-
+        <Route path="/dash-board" element={<Sidebar/>}/>
         <Route path="/pricing" element={<PricingForm/>}/>
         {/* <Route path="/benefit" element={<Testimonial/>}/>
         <Route path="/help" element={<SuccessStory/>}/> */}

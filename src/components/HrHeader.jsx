@@ -30,6 +30,7 @@ const HrHeader = () => {
           <Link to="benefit">Benefit</Link>
           <Link to="help">Help</Link>
           <Link to="how-it-works">How it Works</Link>
+          <Link to="dash-board">Dashboard</Link>
         </div>
         <div className="header--button">
           <button className='login' onClick={handleLoginClick}>Login</button>
