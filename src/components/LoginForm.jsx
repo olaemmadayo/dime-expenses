@@ -1,9 +1,15 @@
 import React from 'react'
-import "../styles/SignUpForm.css"
+import "../styles/LoginForm.css"
+import HrHeader from './HrHeader'
 
 export const LoginForm = () => {
   return (
+    <div>
+     
+        <HrHeader/>
+      
     <div className='login-page'>
+
         <div className="Login">
           <div class="form-group">
               <label for="name">Email</label>
@@ -17,6 +23,7 @@ export const LoginForm = () => {
           <p>Forgot Password</p>
 
       </div>
+    </div>
     </div>
   )
 }

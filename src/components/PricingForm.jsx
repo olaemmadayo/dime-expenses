@@ -6,6 +6,7 @@ import arrowImg  from '../assets/images/Arrow_07.png';
 import ticketCircle  from '../assets/images/tick-circle.png';
 
 import closeCircle  from '../assets/images/close-circle.png';
+import HrHeader from "./HrHeader";
 
 
 
@@ -13,6 +14,7 @@ import closeCircle  from '../assets/images/close-circle.png';
 const PricingForm = () => {
   return (
     <div className="pricing-container">
+      <HrHeader/>
       <h1>Ready to Get Started?</h1>
       <p>Choose a plan that suits your business needs</p>
 

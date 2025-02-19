@@ -13,31 +13,31 @@ function Sidebar() {
       </div>
       <div>
         <div className="menu--list">
-          <Link to="/" className="item ">
+          <Link to="/main-dashboard" className="item ">
             <FaHome className='icon' />
             Dashboard
           </Link>
-          <Link to="/income" className="item">
+          <Link to="/main-dashboard/income" className="item">
             <FaBox className='icon' />
             Income
           </Link>
-          <Link to="/Expenses" className="item">
+          <Link to="/main-dashboard/expenses" className="item">
             <FaMoneyBill className='icon' />
             Expenses
           </Link> 
-          <Link to="/analytics" className="item">
+          <Link to="/main-dashboard/analytics" className="item">
             < FaChartLine className='icon' />
             Analytics
           </Link>
-          <Link to="/balance" className="item">
+          <Link to="/main-dashboard/balance" className="item">
             <FaBoxOpen className='icon'/>
             Balance
           </Link>
-          <Link to="/report" className="item">
+          <Link to="/main-dashboard/report" className="item">
           <FaCalendar className='icon' />
             Report
           </Link>
-          <Link to="/settings" className="item">
+          <Link to="/main-dashboard/settings" className="item">
           <FaTools className='icon' />
             Settings
           </Link>

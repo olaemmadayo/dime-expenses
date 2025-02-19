@@ -1,6 +1,7 @@
 .hwk--page{
+  flex: 1;
   padding: 20px;
-  margin-top: 50px;
+  
 }
 .hwk--wrap{
   display: flex;

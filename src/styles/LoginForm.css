@@ -1,0 +1,141 @@
+
+/* .{
+  margin: 0;
+  justify-content: center;
+} */
+/* body {
+  height: 100%vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.signup--page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signup-container {
+  background-image:url(C:\Users\USER\Desktop\Dime-expenses-app\src\assets\bkg.png);
+  background-color:rgba(250, 248, 252, 0.5);
+  background-blend-mode: overlay;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%vh;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signup-container h1 {
+  margin-bottom: 1.5rem;
+  color: #333333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: #555555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.signup-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 1rem;
+  color: #555555;
+  font-size: 14px;
+}
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+
+}
+
+.login-header-wrap{
+  width: 100%;
+
+}
+
+.login-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.Login{
+  
+  background-color:rgba(250, 248, 252, 0.5);
+  background-blend-mode: overlay;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center; 
+  margin-top:20px
+}
+.form-group label {
+display: block;
+margin-bottom: 0.5rem;
+font-size: 14px;
+color: #555555;
+}
+.login-btn {
+  background-color: #69155f;
+  color: #ffffff;
+  border: none;
+  width: 400px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Login p{
+  text-decoration: underline;
+}
