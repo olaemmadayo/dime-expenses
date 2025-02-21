@@ -5,9 +5,9 @@ import HrHeader from './HrHeader'
 export const LoginForm = () => {
   return (
     <div>
-     
+      <div className='login-header-wrap'>
         <HrHeader/>
-      
+      </div>
     <div className='login-page'>
 
         <div className="Login">

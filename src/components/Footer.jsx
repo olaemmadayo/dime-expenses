@@ -1,61 +1,60 @@
-import logoDime from '../assets/images/Dime_logo2.png'
+import React from 'react'
+import dimeLogo from '../assets/Dime_logo 2.png'
 import '../styles/Footer.css'
 
-function Footer() {
-    return (
-        <div className='footer-page'>
-
-           <div class="about-product">
-                    <div class="aboutinfo">  
-                        <img src={logoDime} alt="logo" />              
-                        <p>
-                        Data visualisation, and <br /> expense management <br />
-                        for your personal finances and businesses
-                        </p>
-                    </div>
-                    <div class="aboutinfo">
-                        <h2>Product</h2>
-                        <ol>Digital Invoice</ol>
-                        <ol>Analytics</ol>
-                        <ol>Reimbursements</ol>
-                        <ol>Vitual Assistant</ol>
-                        <ol>Artificial Intelligence</ol>
-                    </div>
-                    <div class="aboutinfo">
-                        <h2>Company</h2>
-                        <ol> About Us</ol>
-                        <ol>Newsletters</ol>
-                        <ol>Our Partners</ol>
-                        <ol>Career</ol>
-                        <ol>Contact Us</ol>
-                    </div>
-                    <div class="aboutinfo">
-                        <h2>Resources</h2>
-                        <ol> Blog</ol>
-                        <ol>Pricing</ol>
-                        <ol>FAQ</ol>
-                        <ol>Events</ol>
-                        <ol>Ebook & Guide</ol>
-                    </div>
-                    <div class="aboutinfo">
-                        <h2>Follow us</h2>
-                        <ol>LinkedIn</ol>
-                        <ol>Twitter</ol>
-                        <ol>Instagram</ol>
-                        <ol>Facebook</ol>
-                        <ol>YouTube</ol>
-                    </div>
-                    
+const Footer = () => {
+  return (
+    <div className='footer-page'>
+        <div className="footer-rap">
+            <div className='footer-dime'>
+                <img  className="footer-dime-img" src={dimeLogo} alt="logo" />
+                <p>
+                    Data visualisation, and <br />
+                    expense management <br />
+                    for your personal finances and businesses
+                </p>
             </div>
-            <footer>
-                <p>Privacy policy</p>
-            <p>Terms & Conditions</p>
-            <p>Cookies policy</p>
-          
-            </footer>
-            
+            <div className='footer-product'>
+                <h4>Product</h4>
+                <p>Digital Invoice</p>
+                <p>Analytics</p>
+                <p>Reimbursements</p>
+                <p>Virtual Assistant</p>
+                <p>Artificial Intelligence</p>
+            </div>
+            <div className='footer-company'>
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Newsletters</p>
+                <p>Our Partners</p>
+                <p>Career</p>
+                <p>Contact Us</p>
+            </div>
+            <div className='footer-resources'>
+                <h4>Resources</h4>
+                <p>Blog</p>
+                <p>Pricing</p>
+                <p>FAQ</p>
+                <p>Events</p>
+                <p>Ebook & Guide</p>
+            </div>
+            <div className='footer-follow-us'>
+                <h4>Follow Us</h4>
+                <p>LinkedIn</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Facebook</p>
+                <p>YouTube</p>
+            </div>
         </div>
-
-    );
+        <hr />
+        <div className="footer-terms-condition">
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Cookie Policy</p>
+        </div>
+    </div>
+  )
 }
+
 export default Footer

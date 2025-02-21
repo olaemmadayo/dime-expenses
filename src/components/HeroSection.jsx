@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/HeroSection.css'
 import HrHeader from './HrHeader';
 import heroImage from '../assets/hero-image.png'
+import Footer from '../components/Footer';
 
 const HeroSection = () => {
   return (
@@ -23,6 +24,7 @@ const HeroSection = () => {
         <button className='free-account'>Create a Free Account</button>
         <button className='see-pricing'>See Pricing</button>
       </div>
+      <Footer/>
     </div>
   );
 };

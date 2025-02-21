@@ -1,38 +1,51 @@
-/* footer styling */
-
 .footer-page{
-  height: 100vh;
+  padding: 20px 30px;
+  margin-top: 50px;
 }
-.about-product{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1%;
-    padding: 0 50px;
-  }
-  .aboutinfo h2{
-    font-size: 18px;
-    text-align: center; 
-  }
-  .about-product p{
-    font-size: 18px;
-    color:#21212199;
-    
 
-  }
-  .aboutinfo ol{
-    font-size: 12px;
-    color:#21212199;
-    padding-right: 30px;
-    
-  }
-  footer{
-
-    display: flex;
-    gap: 20px;
-    border-top-style: solid;
-    width: 1120px;
-    border-color: #102136;
-    color:#21212199;
-    margin-left: 70px;
+.footer-rap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-rap p{
+  color: #596780;
+  font-weight: 400;
+}
+.footer-dime{
+  display: flex;
+  flex-direction: column;
+  margin-top:-150px;
   
+}
+.footer-dime-img{
+  width: 200px;
+  height: 70px;
+  margin-left:-10px;
+  margin-top: -10px;
+ 
+}
+.footer-product{
+  display: flex;
+  flex-direction: column; 
+}
+.footer-company{
+  display: flex;
+  flex-direction: column; 
+}
+.footer-resources{
+  display: flex;
+  flex-direction: column;
+}
+.footer-follow-us{
+  display: flex;
+  flex-direction: column;
+}
+.footer-terms-condition{
+  display: flex;
+  gap: 20px;
+}
+.footer-terms-condition p{
+  color: #1A202C;
+  font-weight: 600;
 }
